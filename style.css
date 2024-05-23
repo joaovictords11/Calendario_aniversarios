@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Krona+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.cadastro{
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+
+.tabela{
+    padding-left: 3rem;
+    margin-bottom: 4rem;
+}
+
+.cadastro, .tabela__titulo{
+    margin-bottom: 2rem;
+}
+
+.lista-pessoas__item{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.cabecalho{
+    background-color: rgb(2, 119, 228);
+    text-align: center;
+    padding: 2rem 0;
+    color: white;
+}
+
+.save-button{
+    background-color: rgb(21, 173, 173);
+    color: white;
+    padding: 10px;
+    width: 6%;
+    border: 1px solid rgb(21, 173, 173);
+    border-radius: 8px;
+}
+
+.save-button:hover{
+    background-color: rgb(9, 124, 124);
+}
+
+.form-full{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 10px;
+    font-weight: 500;
+}
+
+.form-field{
+    padding: 7px 10px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: rgb(236, 234, 234);
+    border: 1px solid rgb(218, 217, 217);
+}
+
+.lista-pessoas__btnEditar{
+    background-color: rgb(236, 234, 234);
+    border: 1px solid rgb(218, 217, 217);
+    padding: 0 3px;
+    border-radius: 4px;
+}
+
+.lista-pessoas__btnEditar:hover{
+    background-color: rgb(206, 202, 202);
+}
+
+.tabela__cabecalho{
+    display: flex;
+    gap: 30px;
+}
+
+.btnLimpar{
+    background-color: rgb(236, 234, 234);
+    border: 1px solid rgb(218, 217, 217);
+    padding: 0 5px;
+    border-radius: 4px;
+    height: 1.8rem;
+    margin-top: 3px;
+}
+
+.btnLimpar:hover{
+    background-color: rgb(206, 202, 202);
+}

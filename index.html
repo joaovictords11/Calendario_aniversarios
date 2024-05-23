@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+       <h1 class="cabecalho__titulo">Meus Aniversários</h1> 
+    </header>   
+    <section class="cadastro">       
+        <form class="form js-form">
+            <label for="name" class="form-full">
+                Nome
+                <input class="form-field js-field" id="name" minlength="3" maxlength="120" name="name" required type="text" pattern="[A-Za-zÀ-ú. ]+">
+            </label>
+            <label for="birth-date" class="form-full">
+                Data de Nascimento
+                <input class="form-field js-field" id="birth-date" name="birth-date" required type="date">
+            </label>
+            <button type="submit" class="save-button">Salvar</button>
+        </form>
+    </section>
+    <section class="tabela">
+        <div class="tabela__cabecalho">
+            <h2 class="tabela__titulo">Pessoas</h2>
+            <button class="btnLimpar">Limpar</button>
+        </div>
+        <ul class="lista-pessoas"></ul>       
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
